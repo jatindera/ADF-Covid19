@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-covid19india"
 		},
+		"LS_KeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://pigolu-kv.vault.azure.net/"
+		},
 		"ls_adls2_properties_typeProperties_url": {
 			"value": "https://adls2pigolu.dfs.core.windows.net"
 		},

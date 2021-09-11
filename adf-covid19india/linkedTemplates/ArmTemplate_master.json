@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-covid19india"
 		},
+		"LS_KeyVault_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://pigolu-kv.vault.azure.net/"
+		},
 		"ls_adls2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adls2pigolu.dfs.core.windows.net"
@@ -41,6 +45,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"LS_KeyVault_properties_typeProperties_baseUrl": {
+						"value": "[parameters('LS_KeyVault_properties_typeProperties_baseUrl')]"
 					},
 					"ls_adls2_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls2_properties_typeProperties_url')]"
